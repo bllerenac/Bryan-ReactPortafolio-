@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import {ButtonHeader} from './components/ui/buttons'
 import './App.css';
 
 function App() {
@@ -17,6 +18,8 @@ function App() {
         >
           Learn React
         </a>
+        <ButtonHeader> Hola Mundo </ButtonHeader>
+         
       </header>
     </div>
   );
