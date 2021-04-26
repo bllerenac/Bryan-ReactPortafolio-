@@ -1,13 +1,25 @@
 import styled from '@emotion/styled'
 import {ButtonHeader} from '../ui/buttons'
 
-const headerOptions = ["About", "Work", "Contact", "Social Media"];
+const Headerdiv = styled.div`
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+`;
 
-function Header (){
-    return (<>
-        {headerOptions.map(option => {
-                <ButtonHeader>{option}</ButtonHeader>
-            })
-        }
-    </>)
+export default function Header (){
+    const headerOptions = ["About", "Work", "Contact", "Social Media"];
+    
+    return (
+        <Headerdiv>
+            {headerOptions.map(option => {
+                return(
+                    <ButtonHeader>{option}</ButtonHeader>
+                )
+            })}
+        </Headerdiv>
+    )
 }
+
+
+

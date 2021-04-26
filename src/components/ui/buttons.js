@@ -8,9 +8,9 @@ export const ButtonHeader = styled.button`
     border: none;
     background-color: transparent;
     color: #f7484e;
-    font-family: 'Proxima Nova Bold';
     font-size: 14px;
-    font-weight: bold;
+    font-style: normal;
+    font-weight: 700;
     text-transform: uppercase;
     background-image: linear-gradient(currentColor, currentColor);
     background-position: 0% 100%;

@@ -1,13 +1,17 @@
+@import url('./typografy.css');
 @font-face {
   font-family: 'Proxima Nova Bold';
-  src: url('./fonts/proximaNova/Proxima\ Nova\ Bold.otf') format('opentype');
+  src: url('./fonts//ProximaNovaBold/Proxima\ Nova\ Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('./fonts//ProximaNovaRegular/ProximaNova-Regular.otf') format('opentype');
 }
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Proxima Nova';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
